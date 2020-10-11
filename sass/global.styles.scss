@@ -1,13 +1,19 @@
 /** @format */
-@import './constants/variables.scss';
+
+@import './constants/fonts';
+
+@import './constants/variables';
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	// font-family: 'proxima', 'cursive';
 }
 
 body {
 	background: $primary-color;
 	color: white;
 }
+
+@import './components/navbar';
