@@ -1,4 +1,5 @@
 /** @format */
+@import './constants/variables.scss';
 
 * {
 	margin: 0;
@@ -7,6 +8,6 @@
 }
 
 body {
-	background: #2b2e4a;
+	background: $primary-color;
 	color: white;
 }
